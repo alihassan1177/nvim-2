@@ -22,7 +22,6 @@ return require('packer').startup({ function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins
   use "nvim-lua/plenary.nvim"
-
   use "folke/tokyonight.nvim"
   --use 'AlexvZyl/nordic.nvim'
 
