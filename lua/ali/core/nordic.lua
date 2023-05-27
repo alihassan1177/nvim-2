@@ -16,7 +16,7 @@ nordic.setup {
     -- Adjusts some colors to make the theme a bit nicer (imo).
     nordic = {
         -- Reduce the overall amount of blue in the theme (diverges from base Nord).
-        reduced_blue = false,
+        reduced_blue = true,
     },
     -- Onedark specific options.
     -- Set all to false to keep original onedark colors.

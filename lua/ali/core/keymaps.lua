@@ -10,13 +10,13 @@ keymap.set("n", "<C-s>", ":w<CR>")
 keymap.set("i", "<C-s>", "<ESC>:w<CR>")
 keymap.set("n", "<C-l>", ":nohl<CR>")
 
--- Telescope eymaps
+-- Telescope keymaps
 keymap.set("n", "<C-p>", "<cmd>Telescope find_files<cr>")
 keymap.set("n", "<C-f>", "<cmd>Telescope live_grep<cr>")
 
 -- FileTree keymaps
-keymap.set("n", "<C-b>", ":NvimTreeToggle<CR>")
-keymap.set("i", "<C-b>", "<ESC>:NvimTreeToggle<CR>")
+--keymap.set("n", "<C-i>", ":NvimTreeToggle<CR>")
+--keymap.set("i", "<C-i>", "<ESC>:NvimTreeToggle<CR>")
 
 -- Formatting
 keymap.set("n", "<leader>f", "<cmd>lua vim.lsp.buf.format()<CR>")

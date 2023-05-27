@@ -23,7 +23,8 @@ return require('packer').startup({ function(use)
   -- My plugins
   use "nvim-lua/plenary.nvim"
 
-  use 'AlexvZyl/nordic.nvim'
+  use "folke/tokyonight.nvim"
+  --use 'AlexvZyl/nordic.nvim'
 
   use "nvim-lualine/lualine.nvim"
   use "onsails/lspkind.nvim"
@@ -31,7 +32,7 @@ return require('packer').startup({ function(use)
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
   use({ "nvim-telescope/telescope.nvim", branch = "0.1.x" }) -- fuzzy finder
   use "BurntSushi/ripgrep"
-  use "Shatur/neovim-ayu"
+  --use "Shatur/neovim-ayu"
 
 
   use {

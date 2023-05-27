@@ -24,8 +24,8 @@ cmp.setup({
   },
   mapping = {
     ['<CR>'] = cmp.mapping.confirm({ select = false }),
-    ['<Tab>'] = cmp_action.luasnip_jump_forward(),
-    ['<S-Tab>'] = cmp_action.luasnip_jump_backward(),
+    --[''] = cmp_action.luasnip_jump_forward(),
+    --[''] = cmp_action.luasnip_jump_backward(),
  },
   formatting = {
     -- changing the order of fields so the icon is the first

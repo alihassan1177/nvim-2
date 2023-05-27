@@ -1,10 +1,9 @@
 require("ali.core.options")
 require("ali.core.keymaps")
-require("ali.core.nordic")
+require("ali.core.tokyonight")
 require("ali.plugins.telescope")
 require("ali.plugins.lualine")
 require("ali.plugins.nvimtree")
 require("ali.plugins.treesitter")
 require("ali.plugins.lsp")
 require("ali.plugins.lspkind")
-
