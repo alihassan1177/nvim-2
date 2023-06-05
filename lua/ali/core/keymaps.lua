@@ -15,8 +15,10 @@ keymap.set("n", "<C-p>", "<cmd>Telescope find_files<cr>")
 keymap.set("n", "<C-f>", "<cmd>Telescope live_grep<cr>")
 
 -- FileTree keymaps
---keymap.set("n", "<C-i>", ":NvimTreeToggle<CR>")
---keymap.set("i", "<C-i>", "<ESC>:NvimTreeToggle<CR>")
+--keymap.set("n", "<C-b>", ":NvimTreeFocus<CR>")
+--keymap.set("i", "<C-b>", "<ESC>:NvimTreeFocus<CR>")
+--keymap.set("n", "<C-i>", ":NvimTreeClose<CR>")
+--keymap.set("i", "<C-i>", "<ESC>:NvimTreeClose<CR>")
 
 -- Formatting
 keymap.set("n", "<leader>f", "<cmd>lua vim.lsp.buf.format()<CR>")
